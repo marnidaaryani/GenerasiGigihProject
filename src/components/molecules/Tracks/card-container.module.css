@@ -1,0 +1,43 @@
+.cardContainer{
+	padding: 8px;
+	margin: 12px 0;
+}
+
+.cardGrid{
+	display: grid;
+	gap: 8px;
+    grid-template-columns: 50% 50%;
+    padding: 16px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.buttonNext{
+    width: 500px;
+    height: 40px;
+}
+
+.bottomSection{
+    height: 200px;
+}
+
+.errorMessage{
+    width: 500px;
+    margin-top: 12px;
+    padding: 6px 0;
+    text-align: center;
+    color: rgb(241, 69, 69);
+    /* border: 1px dotted rgb(241, 69, 69); */
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+    .cardGrid{
+        grid-template-columns: 100%;
+    }
+}

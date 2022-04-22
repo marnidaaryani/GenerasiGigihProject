@@ -1,0 +1,70 @@
+.playlist-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.forms{
+    margin-top: 20px;
+}
+
+.label-input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 16px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.input-title{
+   outline: none;
+}
+
+.description{
+    height: 100px;
+    resize: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.submit-playlist{
+    background: none;
+	padding: 12px;
+	margin-top: 24px;
+	color: white;
+	border: 1px solid #dadada;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border-radius: 4px;
+}
+
+.submit-playlist:hover {
+	cursor: pointer;
+	background-color: #dadada;
+	color: black;
+	transition: all 0.2s;
+}
+
+.minimum {
+    margin-bottom: 10px;
+}
+
+.error-message{
+    margin-top: 12px;
+    padding: 12px 0;
+    text-align: center;
+    color: rgb(241, 69, 69);
+    border: 1px solid rgb(241, 69, 69);
+    border-radius: 4px;
+}
+
+.success-message{
+    margin-top: 12px;
+    padding: 12px 0;
+    text-align: center;
+    color: #5dfa4f;
+    border: 1px solid #5dfa4f;
+    border-radius: 4px;
+}

@@ -1,0 +1,85 @@
+.card{
+    border: 1px solid #dadada;
+    display: flex;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 16px;
+    justify-content: space-between;
+}
+
+.cardImage{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.description{
+    font-weight: 200;
+}
+
+.cardbutton{
+    outline: none;
+	background: none;
+	padding: 8px;
+	color: white;
+	border-radius: 4px;
+	width: 100%;
+}
+
+.cardbutton:hover{
+    cursor: pointer;
+}
+
+.deselect {
+	border: 1px solid #fa4f4f;
+    background-color: #fa4f4f;
+}
+
+.deselect:hover {
+    border: 1px solid #fa4f4f;
+    background-color: #121413;
+}
+
+.select {
+	border: 1px solid #5dfa4f;
+    background-color: #5dfa4f;
+    color: black;
+}
+
+.select:hover {
+    border: 1px solid #5dfa4f;
+    background-color: #121413;
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    .cardImage{
+        height: 150px;
+        width: 150px;
+    }
+    .title{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .cardImage{
+        height: 100px;
+        width: 100px;
+    }
+    .title{
+        font-size: 18px;
+    }
+}

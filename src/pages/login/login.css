@@ -1,0 +1,22 @@
+.login-container {
+	text-align: center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.button {
+	padding: 8px 16px;
+	border: 1px solid #dadada;
+	width: fit-content;
+	border-radius: 4px;
+	margin: 20px auto;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #dadada;
+	color: black;
+	transition: all 0.2s ease;
+}

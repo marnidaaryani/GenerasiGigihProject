@@ -1,0 +1,85 @@
+.gridContainer{
+    display: grid;
+    gap: 8px;
+    grid-template-columns: 50% 50%;
+    padding: 16px;
+}
+
+.listPlaylistContainer{
+    margin-top: 50px;
+    min-height: 100vh;
+    padding: 16px;
+}
+
+.cardContainer{
+    width: 100%;
+}
+
+.playlistCard{
+    border: 1px solid #dadada;
+    display: flex;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.cardImage{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.cardBody{
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    justify-content: flex-end;
+}
+
+.cardTitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cardContent{
+    font-weight: 300;
+}
+
+.playButtonContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.playButton{
+    border: 1px solid #dadada;
+    width: fit-content;
+    padding: 2px 20px;
+    border-radius: 10px;
+}
+
+.author{
+    font-weight: bold;
+}
+
+.flex{
+    display: flex;
+}
+
+.dot{
+    padding: 0 4px;
+}
+
+.loadingContainer{
+    height: 30vh;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+    .gridContainer{
+        grid-template-columns: 100%;
+        
+    }
+}
